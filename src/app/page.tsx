@@ -20,11 +20,11 @@ export default function Home() {
                     <Image alt="main-image" src="/logos/logo.svg" fill style={{objectFit:'cover'}}></Image>
                   </div>
 
-                  <div className=" w-[50%] lg:w-[40%] h-fit text-center">
-                    <h1 className=" text-[3em] md:text-[5em] font-medium text-white leading-[0.9em]">Virtuaal Infrapower</h1>
+                  <div className=" w-[50%] lg:w-[40%] h-fit text-center border-2 border-red-500">
+                    <h1 className=" text-[2em] md:text-[5em] font-medium text-white leading-[0.9em]">Virtuaal Infrapower</h1>
                   </div>
                   <div className="w-[100%]  text-center">
-                        <span className="font-bold leading-10 text-white tracking-[1em] xl:tracking-[1em] 2xl:tracking-[2em] text-[22px] " >PRIVATE LIMITED</span>       
+                        <span className="font-bold leading-10 text-white tracking-[0.5em] xl:tracking-[1em] 2xl:tracking-[2em] text-[17px] md:text-[22px] " >PRIVATE LIMITED</span>       
                   </div>
 
                   <div className="w-[65%] lg:w-[33%] text-center text-white " >
@@ -39,7 +39,7 @@ export default function Home() {
 
 
           <div className="flex justify-center leading-[84.57px] my-6 ">
-            <h1 className="text-[60px] md:text-[96px] font-normal underline decoration-dotted   text-[#084102]">Sustainibility</h1>
+            <h1 className="text-[40px] md:text-[96px] font-normal underline decoration-dotted   text-[#084102]">Sustainibility</h1>
           </div>
             <p className="text-[24px] font-normal leading-[29.05px] tracking-[10px] text-center" >WE HELP THE NATURE ECOSYSTEM</p>
           <div className="flex justify-center ">

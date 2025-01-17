@@ -33,7 +33,7 @@ const nav=[
 
 const Navbar = () => {
   return (
-    <div className='w-full h-[] bg-[#084102] p-2'>
+    <div className='w-full h-[] hidden sm:block bg-[#084102] p-2'>
         <div className='w-[90%] flex justify-between items-center' >
             <div className='w-[20%] flex items-center gap-1'>
                 <div className='relative w-[40%] h-[90px]'>
